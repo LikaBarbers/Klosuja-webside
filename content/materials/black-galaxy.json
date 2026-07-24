@@ -1,0 +1,47 @@
+{
+  "active": true,
+  "order": 4,
+  "name": "Black Galaxy",
+  "category": "granit",
+  "image": "black-galaxy.svg",
+  "sq": {
+    "tag": "Rezistent",
+    "image_alt": "Ilustrim i granitit Black Galaxy",
+    "summary": "Granit i errët me pika të arta. I përshtatshëm për banakë, shkallë dhe sipërfaqe me përdorim të shpeshtë.",
+    "description": "Granit me bazë të errët dhe pika metalike. Rezistent dhe i përshtatshëm për sipërfaqe që përdoren shpesh.",
+    "specs": [
+      {
+        "label": "Përdorim",
+        "value": "Brenda/Jashtë"
+      },
+      {
+        "label": "Rezistencë",
+        "value": "E lartë"
+      },
+      {
+        "label": "Mirëmbajtje",
+        "value": "E lehtë"
+      }
+    ]
+  },
+  "en": {
+    "tag": "Durable",
+    "image_alt": "Black Galaxy granite sample",
+    "summary": "Dark granite with gold speckles. Suitable for worktops, stairs and frequently used surfaces.",
+    "description": "Dark granite with metallic speckles. Durable and suitable for surfaces that are used frequently.",
+    "specs": [
+      {
+        "label": "Application",
+        "value": "Indoor/Outdoor"
+      },
+      {
+        "label": "Durability",
+        "value": "High"
+      },
+      {
+        "label": "Maintenance",
+        "value": "Easy"
+      }
+    ]
+  }
+}
