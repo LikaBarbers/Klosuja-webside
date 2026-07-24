@@ -1,17 +1,12 @@
 {
   "materials": [
     {
-      "id": "carrara-white",
-      "active": true,
-      "order": 1,
-      "name": "Carrara White",
-      "category": "mermer",
-      "category_label": "Marble",
-      "tag": "Interior",
-      "image": "carrara.svg",
       "image_alt": "Carrara White marble sample",
+      "active": true,
       "summary": "A white-grey base with soft veining. Ideal for bathrooms, kitchens and wall cladding.",
-      "description": "Classic marble with a white-grey tone and soft veining. It works beautifully in minimalist and elegant interiors.",
+      "name": "Carrara White",
+      "order": 1,
+      "category_label": "Marble",
       "details_label": "View details →",
       "specs": [
         {
@@ -26,20 +21,20 @@
           "label": "Maintenance",
           "value": "Periodic"
         }
-      ]
+      ],
+      "tag": "Interior",
+      "id": "carrara-white",
+      "image": "uploads/55111.jpg",
+      "description": "Classic marble with a white-grey tone and soft veining. It works beautifully in minimalist and elegant interiors.",
+      "category": "mermer"
     },
     {
-      "id": "calacatta-gold",
-      "active": true,
-      "order": 2,
-      "name": "Calacatta Gold",
-      "category": "mermer",
-      "category_label": "Marble",
-      "tag": "Premium",
-      "image": "calacatta.svg",
       "image_alt": "Calacatta Gold marble sample",
+      "active": true,
       "summary": "A light background with bold grey and gold veining. A luxurious choice for statement interiors.",
-      "description": "A premium material with bold veining and warm undertones. Ideal for focal areas and statement interiors.",
+      "name": "Calacatta Gold",
+      "order": 2,
+      "category_label": "Marble",
       "details_label": "View details →",
       "specs": [
         {
@@ -54,20 +49,20 @@
           "label": "Maintenance",
           "value": "Careful"
         }
-      ]
+      ],
+      "tag": "Premium",
+      "id": "calacatta-gold",
+      "image": "uploads/55116.jpg",
+      "description": "A premium material with bold veining and warm undertones. Ideal for focal areas and statement interiors.",
+      "category": "mermer"
     },
     {
-      "id": "nero-marquina",
-      "active": true,
-      "order": 3,
-      "name": "Nero Marquina",
-      "category": "mermer",
-      "category_label": "Marble",
-      "tag": "Decorative",
-      "image": "nero.svg",
       "image_alt": "Nero Marquina marble sample",
+      "active": true,
       "summary": "Intense black with white veining. Creates an elegant contrast on worktops, tables and walls.",
-      "description": "Black marble with a strong contrast of white veining. It creates a powerful visual identity in any space.",
+      "name": "Nero Marquina",
+      "order": 3,
+      "category_label": "Marble",
       "details_label": "View details →",
       "specs": [
         {
@@ -82,20 +77,20 @@
           "label": "Maintenance",
           "value": "Periodic"
         }
-      ]
+      ],
+      "tag": "Decorative",
+      "id": "nero-marquina",
+      "image": "uploads/55117.jpg",
+      "description": "Black marble with a strong contrast of white veining. It creates a powerful visual identity in any space.",
+      "category": "mermer"
     },
     {
-      "id": "black-galaxy",
-      "active": true,
-      "order": 4,
-      "name": "Black Galaxy",
-      "category": "granit",
-      "category_label": "Granite",
-      "tag": "Durable",
-      "image": "black-galaxy.svg",
       "image_alt": "Black Galaxy granite sample",
+      "active": true,
       "summary": "Dark granite with gold speckles. Suitable for worktops, stairs and frequently used surfaces.",
-      "description": "Dark granite with metallic speckles. Durable and suitable for surfaces that are used frequently.",
+      "name": "Black Galaxy",
+      "order": 4,
+      "category_label": "Granite",
       "details_label": "View details →",
       "specs": [
         {
@@ -110,20 +105,20 @@
           "label": "Maintenance",
           "value": "Easy"
         }
-      ]
+      ],
+      "tag": "Durable",
+      "id": "black-galaxy",
+      "image": "uploads/55118.jpg",
+      "description": "Dark granite with metallic speckles. Durable and suitable for surfaces that are used frequently.",
+      "category": "granit"
     },
     {
-      "id": "bianco-sardo",
-      "active": true,
-      "order": 5,
-      "name": "Bianco Sardo",
-      "category": "granit",
-      "category_label": "Granite",
-      "tag": "Universal",
-      "image": "bianco-sardo.svg",
       "image_alt": "Bianco Sardo granite sample",
+      "active": true,
       "summary": "A grey, white and black blend. A practical material for kitchens, flooring and facades.",
-      "description": "Fine-grained granite with a neutral colour combination. A practical choice for many types of projects.",
+      "name": "Bianco Sardo",
+      "order": 5,
+      "category_label": "Granite",
       "details_label": "View details →",
       "specs": [
         {
@@ -138,20 +133,20 @@
           "label": "Maintenance",
           "value": "Easy"
         }
-      ]
+      ],
+      "tag": "Universal",
+      "id": "bianco-sardo",
+      "image": "uploads/55119.jpg",
+      "description": "Fine-grained granite with a neutral colour combination. A practical choice for many types of projects.",
+      "category": "granit"
     },
     {
-      "id": "tan-brown",
-      "active": true,
-      "order": 6,
-      "name": "Tan Brown",
-      "category": "granit",
-      "category_label": "Granite",
-      "tag": "Warm",
-      "image": "tan-brown.svg",
       "image_alt": "Tan Brown granite sample",
+      "active": true,
       "summary": "Brown and black tones with a rich texture. Suitable for classic and contemporary interiors.",
-      "description": "Granite with warm brown and black tones. It combines well with wood, metal and classic furniture.",
+      "name": "Tan Brown",
+      "order": 6,
+      "category_label": "Granite",
       "details_label": "View details →",
       "specs": [
         {
@@ -166,7 +161,12 @@
           "label": "Durability",
           "value": "High"
         }
-      ]
+      ],
+      "tag": "Warm",
+      "id": "tan-brown",
+      "image": "uploads/55120.jpg",
+      "description": "Granite with warm brown and black tones. It combines well with wood, metal and classic furniture.",
+      "category": "granit"
     }
   ]
 }
