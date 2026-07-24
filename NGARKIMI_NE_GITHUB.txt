@@ -1,0 +1,13 @@
+UDHEZIME NGA TELEFONI
+
+1. Shkarko ZIP-in Klosuja_GitHub_Ready.zip.
+2. Hape aplikacionin My Files / Files dhe zgjidh Extract / Nxirr.
+3. Në GitHub hap repository-n.
+4. Shtyp menunë me tri pika pranë butonit Code ose Add file.
+5. Zgjidh Upload files.
+6. Përzgjidh të gjithë skedarët e nxjerrë. Mos ngarko vetë ZIP-in.
+7. Shkruaj një mesazh si "Fix website files" dhe shtyp Commit changes.
+8. Te Settings → Pages zgjidh main dhe /(root), pastaj Save.
+
+Të gjithë skedarët duhet të duken në faqen kryesore të repository-t.
+Nuk duhet të krijosh dosje assets për këtë version.
