@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="sq">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Klosuja | Paneli i administrimit</title>
+  <meta name="robots" content="noindex,nofollow" />
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <style>
+    body { margin: 0; background: #f5f2eb; font-family: Arial, sans-serif; }
+    .cms-loading {
+      min-height: 100vh; display: grid; place-items: center; text-align: center;
+      color: #151513; padding: 24px;
+    }
+  </style>
+  <script>
+    window.CMS_MANUAL_INIT = true;
+  </script>
+</head>
+<body>
+  <div class="cms-loading">Duke hapur panelin e administrimit…</div>
+
+  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+  <script>
+    const { CMS, initCMS } = window;
+
+    const materialFieldsSq = [
+      { label: "ID unike", name: "id", widget: "string", hint: "Shkruaje pa hapësira, p.sh. carrara-white" },
+      { label: "Shfaqe në website", name: "active", widget: "boolean", default: true },
+      { label: "Renditja", name: "order", widget: "number", value_type: "int", min: 1, default: 1 },
+      { label: "Emri i materialit", name: "name", widget: "string" },
+      {
+        label: "Kategoria", name: "category", widget: "select",
+        options: [
+          { label: "Mermer", value: "mermer" },
+          { label: "Granit", value: "granit" }
+        ]
+      },
+      { label: "Emri i kategorisë", name: "category_label", widget: "string", default: "Mermer" },
+      { label: "Etiketa e shkurtër", name: "tag", widget: "string", required: false },
+      { label: "Fotografia", name: "image", widget: "image", allow_multiple: false },
+      { label: "Përshkrimi i fotografisë", name: "image_alt", widget: "string", required: false },
+      { label: "Përshkrimi në kartë", name: "summary", widget: "text" },
+      { label: "Përshkrimi i plotë", name: "description", widget: "text" },
+      { label: "Teksti i butonit", name: "details_label", widget: "string", default: "Shiko detajet →" },
+      {
+        label: "Karakteristikat", name: "specs", widget: "list",
+        summary: "{{fields.label}}: {{fields.value}}",
+        fields: [
+          { label: "Titulli", name: "label", widget: "string" },
+          { label: "Vlera", name: "value", widget: "string" }
+        ]
+      }
+    ];
+
+    const materialFieldsEn = [
+      { label: "Unique ID", name: "id", widget: "string", hint: "No spaces, for example carrara-white" },
+      { label: "Show on website", name: "active", widget: "boolean", default: true },
+      { label: "Order", name: "order", widget: "number", value_type: "int", min: 1, default: 1 },
+      { label: "Material name", name: "name", widget: "string" },
+      {
+        label: "Category", name: "category", widget: "select",
+        options: [
+          { label: "Marble", value: "mermer" },
+          { label: "Granite", value: "granit" }
+        ]
+      },
+      { label: "Category label", name: "category_label", widget: "string", default: "Marble" },
+      { label: "Short tag", name: "tag", widget: "string", required: false },
+      { label: "Image", name: "image", widget: "image", allow_multiple: false },
+      { label: "Image description", name: "image_alt", widget: "string", required: false },
+      { label: "Card description", name: "summary", widget: "text" },
+      { label: "Full description", name: "description", widget: "text" },
+      { label: "Details button text", name: "details_label", widget: "string", default: "View details →" },
+      {
+        label: "Specifications", name: "specs", widget: "list",
+        summary: "{{fields.label}}: {{fields.value}}",
+        fields: [
+          { label: "Label", name: "label", widget: "string" },
+          { label: "Value", name: "value", widget: "string" }
+        ]
+      }
+    ];
+
+    initCMS({
+      config: {
+        load_config_file: false,
+        backend: {
+          name: "git-gateway",
+          branch: "main"
+        },
+        publish_mode: "simple",
+        media_folder: "uploads",
+        public_folder: "uploads",
+        collections: [
+          {
+            name: "catalog_sq",
+            label: "Katalogu Shqip",
+            files: [
+              {
+                name: "materials_sq",
+                label: "Materialet në shqip",
+                file: "materials-sq.json",
+                format: "json",
+                fields: [
+                  {
+                    label: "Materialet",
+                    name: "materials",
+                    widget: "list",
+                    collapsed: false,
+                    summary: "{{fields.name}}",
+                    fields: materialFieldsSq
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            name: "catalog_en",
+            label: "English Catalogue",
+            files: [
+              {
+                name: "materials_en",
+                label: "Materials in English",
+                file: "materials-en.json",
+                format: "json",
+                fields: [
+                  {
+                    label: "Materials",
+                    name: "materials",
+                    widget: "list",
+                    collapsed: false,
+                    summary: "{{fields.name}}",
+                    fields: materialFieldsEn
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    });
+  </script>
+</body>
+</html>

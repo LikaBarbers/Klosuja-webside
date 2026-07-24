@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#faf8f2"/>
+      <stop offset="1" stop-color="#d8d5ce"/>
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="2"/></filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#g)"/>
+  <g fill="none" stroke-linecap="round">
+    <path d="M-40 470 C170 260 280 380 450 190 S670 80 850 -20" stroke="#7d7b79" stroke-width="13" opacity=".45"/><path d="M-40 500 C190 290 300 410 470 210 S690 100 850 10" stroke="#b68a4e" stroke-width="4" opacity=".55"/><path d="M140 -30 C250 120 220 200 330 300" stroke="#9b9994" stroke-width="5" opacity=".28"/>
+  </g>
+  
+  <rect x="28" y="28" width="744" height="544" fill="none" stroke="rgba(255,255,255,.34)"/>
+  <text x="55" y="545" font-family="Arial, sans-serif" font-size="22" fill="#1b1b19" opacity=".78">KLOSUJA · MATERIAL SAMPLE</text>
+</svg>

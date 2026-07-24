@@ -1,0 +1,172 @@
+{
+  "materials": [
+    {
+      "id": "carrara-white",
+      "active": true,
+      "order": 1,
+      "name": "Carrara White",
+      "category": "mermer",
+      "category_label": "Mermer",
+      "tag": "I brendshëm",
+      "image": "carrara.svg",
+      "image_alt": "Ilustrim i mermerit Carrara White",
+      "summary": "Bazë e bardhë-gri me damarë të butë. Ideal për banjo, kuzhina dhe veshje muri.",
+      "description": "Mermer klasik me tonalitet të bardhë-gri dhe damarë të butë. Përshtatet mirë me interiere minimaliste dhe elegante.",
+      "details_label": "Shiko detajet →",
+      "specs": [
+        {
+          "label": "Përdorim",
+          "value": "Interier"
+        },
+        {
+          "label": "Pamje",
+          "value": "E çelët"
+        },
+        {
+          "label": "Mirëmbajtje",
+          "value": "Periodike"
+        }
+      ]
+    },
+    {
+      "id": "calacatta-gold",
+      "active": true,
+      "order": 2,
+      "name": "Calacatta Gold",
+      "category": "mermer",
+      "category_label": "Mermer",
+      "tag": "Premium",
+      "image": "calacatta.svg",
+      "image_alt": "Ilustrim i mermerit Calacatta Gold",
+      "summary": "Sfond i çelët me damarë të theksuar gri dhe të artë. Zgjedhje luksoze për ambiente përfaqësuese.",
+      "description": "Material premium me damarë të theksuar dhe nuanca të ngrohta. Ideal për zona fokale dhe ambiente përfaqësuese.",
+      "details_label": "Shiko detajet →",
+      "specs": [
+        {
+          "label": "Përdorim",
+          "value": "Interier"
+        },
+        {
+          "label": "Pamje",
+          "value": "Luksoze"
+        },
+        {
+          "label": "Mirëmbajtje",
+          "value": "E kujdesshme"
+        }
+      ]
+    },
+    {
+      "id": "nero-marquina",
+      "active": true,
+      "order": 3,
+      "name": "Nero Marquina",
+      "category": "mermer",
+      "category_label": "Mermer",
+      "tag": "Dekorativ",
+      "image": "nero.svg",
+      "image_alt": "Ilustrim i mermerit Nero Marquina",
+      "summary": "E zezë intensive me damarë të bardhë. Jep kontrast elegant në banakë, tavolina dhe mure.",
+      "description": "Mermer i zi me kontrast të fortë të damarëve të bardhë. Jep identitet të fuqishëm vizual në çdo ambient.",
+      "details_label": "Shiko detajet →",
+      "specs": [
+        {
+          "label": "Përdorim",
+          "value": "Dekorativ"
+        },
+        {
+          "label": "Pamje",
+          "value": "Kontrast"
+        },
+        {
+          "label": "Mirëmbajtje",
+          "value": "Periodike"
+        }
+      ]
+    },
+    {
+      "id": "black-galaxy",
+      "active": true,
+      "order": 4,
+      "name": "Black Galaxy",
+      "category": "granit",
+      "category_label": "Granit",
+      "tag": "Rezistent",
+      "image": "black-galaxy.svg",
+      "image_alt": "Ilustrim i granitit Black Galaxy",
+      "summary": "Granit i errët me pika të arta. I përshtatshëm për banakë, shkallë dhe sipërfaqe me përdorim të shpeshtë.",
+      "description": "Granit me bazë të errët dhe pika metalike. Rezistent dhe i përshtatshëm për sipërfaqe që përdoren shpesh.",
+      "details_label": "Shiko detajet →",
+      "specs": [
+        {
+          "label": "Përdorim",
+          "value": "Brenda/Jashtë"
+        },
+        {
+          "label": "Rezistencë",
+          "value": "E lartë"
+        },
+        {
+          "label": "Mirëmbajtje",
+          "value": "E lehtë"
+        }
+      ]
+    },
+    {
+      "id": "bianco-sardo",
+      "active": true,
+      "order": 5,
+      "name": "Bianco Sardo",
+      "category": "granit",
+      "category_label": "Granit",
+      "tag": "Universal",
+      "image": "bianco-sardo.svg",
+      "image_alt": "Ilustrim i granitit Bianco Sardo",
+      "summary": "Përzierje gri, të bardhë dhe të zezë. Praktik për kuzhina, dysheme dhe fasada.",
+      "description": "Granit me strukturë të imët dhe kombinim neutral ngjyrash. Zgjedhje praktike për shumë lloje projektesh.",
+      "details_label": "Shiko detajet →",
+      "specs": [
+        {
+          "label": "Përdorim",
+          "value": "Universal"
+        },
+        {
+          "label": "Rezistencë",
+          "value": "E lartë"
+        },
+        {
+          "label": "Mirëmbajtje",
+          "value": "E lehtë"
+        }
+      ]
+    },
+    {
+      "id": "tan-brown",
+      "active": true,
+      "order": 6,
+      "name": "Tan Brown",
+      "category": "granit",
+      "category_label": "Granit",
+      "tag": "I ngrohtë",
+      "image": "tan-brown.svg",
+      "image_alt": "Ilustrim i granitit Tan Brown",
+      "summary": "Nuanca kafe dhe të zeza me strukturë të pasur. I përshtatshëm për interiere klasike dhe moderne.",
+      "description": "Granit me tonalitete të ngrohta kafe dhe të zeza. Kombinohet mirë me dru, metal dhe mobilim klasik.",
+      "details_label": "Shiko detajet →",
+      "specs": [
+        {
+          "label": "Përdorim",
+          "value": "Brenda/Jashtë"
+        },
+        {
+          "label": "Pamje",
+          "value": "E ngrohtë"
+        },
+        {
+          "label": "Rezistencë",
+          "value": "E lartë"
+        }
+      ]
+    }
+  ]
+}
