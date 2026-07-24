@@ -1,0 +1,44 @@
+KLOSUJA ADMIN V2 – UDHËZIM I SHKURTËR
+
+ÇFARË U NDRYSHUA
+- Paneli tani ndodhet në dosjen standarde /admin/.
+- Konfigurimi është në /admin/config.yml.
+- Çdo material është një skedar më vete në content/materials.
+- Shqipja dhe anglishtja ndryshohen në të njëjtën hyrje.
+- Paneli nuk hap më të gjithë katalogun në një formular gjigant.
+- Fotografitë e reja ruhen automatikisht në /uploads.
+- Netlify krijon automatikisht materials-sq.json dhe materials-en.json gjatë deploy-t.
+
+SI TA NGARKONI
+1. Nxirrni të gjithë skedarët nga ZIP-i.
+2. Në GitHub, zëvendësoni skedarët e vjetër dhe ngarkoni edhe dosjet:
+   admin
+   content
+   scripts
+   uploads
+3. Sigurohuni që në GitHub të shfaqen:
+   admin/index.html
+   admin/config.yml
+   content/materials/*.json
+   scripts/build-materials.js
+   package.json
+   netlify.toml
+4. Netlify duhet të bëjë një deploy të ri automatik.
+5. Kontrolloni te Deploys që build-i të përfundojë me status Published.
+6. Hyni te https://klosuja.com/admin/
+
+NË NETLIFY
+- Identity duhet të jetë Enabled.
+- Registration duhet të jetë Invite only.
+- Git Gateway duhet të jetë Enabled.
+- Përdoruesi juaj duhet të jetë i ftuar dhe konfirmuar.
+
+PËRDORIMI
+- Për material të ri: Materialet → New Material.
+- Për ndryshim: hapni materialin → Edit → Save/Publish.
+- Për ta fshehur: çaktivizoni “Shfaqe në website”.
+- Për renditjen: ndryshoni numrin “Renditja”.
+- Plotësoni shqipen dhe anglishten në të njëjtën faqe.
+
+SHËNIM
+Git Gateway është mbajtur në këtë version sepse projekti juaj aktualisht e përdor.
