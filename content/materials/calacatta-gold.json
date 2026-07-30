@@ -1,0 +1,51 @@
+{
+  "active": true,
+  "order": 2,
+  "name": "Calacatta Gold",
+  "category": "mermer",
+  "image": "/uploads/calacatta-gold.webp",
+  "sq": {
+    "tag": "Premium",
+    "image_alt": "Pllakë mermeri Calacatta Gold me damarë gri dhe të artë",
+    "summary": "Sfond i çelët me damarë të theksuar gri dhe të artë. Zgjedhje luksoze për ambiente përfaqësuese.",
+    "description": "Material premium me damarë të theksuar dhe nuanca të ngrohta. Ideal për zona fokale dhe ambiente përfaqësuese.",
+    "specs": [
+      {
+        "label": "Përdorim",
+        "value": "Interier"
+      },
+      {
+        "label": "Pamje",
+        "value": "Luksoze"
+      },
+      {
+        "label": "Mirëmbajtje",
+        "value": "E kujdesshme"
+      }
+    ],
+    "seo_title": "Mermer Calacatta Gold në Shqipëri | Klosuja",
+    "seo_description": "Sfond i çelët me damarë të theksuar gri dhe të artë. Zgjedhje luksoze për ambiente përfaqësuese."
+  },
+  "en": {
+    "tag": "Premium",
+    "image_alt": "Calacatta Gold marble slab with grey and gold veining",
+    "summary": "A light background with bold grey and gold veining. A luxurious choice for statement interiors.",
+    "description": "A premium material with bold veining and warm undertones. Ideal for focal areas and statement interiors.",
+    "specs": [
+      {
+        "label": "Application",
+        "value": "Interior"
+      },
+      {
+        "label": "Appearance",
+        "value": "Luxurious"
+      },
+      {
+        "label": "Maintenance",
+        "value": "Careful"
+      }
+    ],
+    "seo_title": "Calacatta Gold Marble in Albania | Klosuja",
+    "seo_description": "A light background with bold grey and gold veining. A luxurious choice for statement interiors."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "active": true,
+  "order": 6,
+  "name": "Tan Brown",
+  "category": "granit",
+  "image": "/uploads/tan-brown.webp",
+  "sq": {
+    "tag": "I ngrohtë",
+    "image_alt": "Pllakë graniti Tan Brown me nuanca kafe dhe të zeza",
+    "summary": "Nuanca kafe dhe të zeza me strukturë të pasur. I përshtatshëm për interiere klasike dhe moderne.",
+    "description": "Granit me tonalitete të ngrohta kafe dhe të zeza. Kombinohet mirë me dru, metal dhe mobilim klasik.",
+    "specs": [
+      {
+        "label": "Përdorim",
+        "value": "Brenda/Jashtë"
+      },
+      {
+        "label": "Pamje",
+        "value": "E ngrohtë"
+      },
+      {
+        "label": "Rezistencë",
+        "value": "E lartë"
+      }
+    ],
+    "seo_title": "Granit Tan Brown në Shqipëri | Klosuja",
+    "seo_description": "Nuanca kafe dhe të zeza me strukturë të pasur. I përshtatshëm për interiere klasike dhe moderne."
+  },
+  "en": {
+    "tag": "Warm",
+    "image_alt": "Tan Brown granite slab with rich brown and black tones",
+    "summary": "Brown and black tones with a rich texture. Suitable for classic and contemporary interiors.",
+    "description": "Granite with warm brown and black tones. It combines well with wood, metal and classic furniture.",
+    "specs": [
+      {
+        "label": "Application",
+        "value": "Indoor/Outdoor"
+      },
+      {
+        "label": "Appearance",
+        "value": "Warm"
+      },
+      {
+        "label": "Durability",
+        "value": "High"
+      }
+    ],
+    "seo_title": "Tan Brown Granite in Albania | Klosuja",
+    "seo_description": "Brown and black tones with a rich texture. Suitable for classic and contemporary interiors."
+  }
+}
