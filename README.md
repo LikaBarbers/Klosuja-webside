@@ -1,10 +1,19 @@
-# Klosuja Website – Admin V2
+# Klosuja Website – SEO Ready
 
-Panel i përmirësuar për administrimin e materialeve në telefon dhe kompjuter.
+Website dygjuhësh për Klosuja, me panel Decap CMS, Netlify Forms dhe gjenerim automatik SEO.
 
-- Paneli: `/admin/`
-- Konfigurimi: `admin/config.yml`
-- Materialet: `content/materials/*.json`
-- Gjenerimi i katalogut: `npm run build`
+## Çfarë gjeneron build-i
 
-Lexoni `UDHEZIME_ADMIN_V2.txt`.
+- katalogun statik dhe skedarët `materials-sq.json` / `materials-en.json`;
+- faqe individuale shqip te `/materiale/<emri>/`;
+- faqe individuale anglisht te `/en/materials/<name>/`;
+- `sitemap.xml` me `hreflang` dhe fotografitë;
+- kartat dhe opsionet e formularit nga `content/materials/*.json`.
+
+## Komanda
+
+```bash
+npm run build
+```
+
+Lexoni `UDHEZIME_SEO_KLOSUJA.txt`.
