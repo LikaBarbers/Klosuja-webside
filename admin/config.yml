@@ -106,6 +106,18 @@ collections:
             name: description
             widget: text
 
+          - label: Titulli SEO
+            name: seo_title
+            widget: string
+            required: false
+            hint: Lëreni bosh për ta krijuar automatikisht nga emri dhe kategoria.
+
+          - label: Përshkrimi SEO
+            name: seo_description
+            widget: text
+            required: false
+            hint: Përmbledhje e shkurtër për Google; rreth 140–160 shenja.
+
           - label: Karakteristikat
             name: specs
             widget: list
@@ -142,6 +154,18 @@ collections:
           - label: Full description
             name: description
             widget: text
+
+          - label: SEO title
+            name: seo_title
+            widget: string
+            required: false
+            hint: Leave blank to create it automatically from the material name and category.
+
+          - label: SEO description
+            name: seo_description
+            widget: text
+            required: false
+            hint: A concise Google summary; approximately 140–160 characters.
 
           - label: Specifications
             name: specs
