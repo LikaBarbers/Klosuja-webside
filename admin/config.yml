@@ -12,8 +12,8 @@ site_url: https://klosuja.com
 display_url: https://klosuja.com
 publish_mode: simple
 
-media_folder: uploads
-public_folder: /uploads
+media_folder: "uploads"
+public_folder: "/uploads"
 
 collections:
   - name: materials
@@ -76,11 +76,13 @@ collections:
       - label: Fotografia kryesore
         name: image
         widget: image
+        required: true
         choose_url: false
+        allow_multiple: false
         media_library:
           config:
-            multiple: false
-        hint: Përdorni JPG, PNG ose WebP. Rekomandohet fotografi horizontale.
+            max_file_size: 10485760
+        hint: Përdorni JPG, PNG ose WebP deri në 10 MB. Pasi të publikoni, prisni deploy-in e Netlify para se të rifreskoni panelin.
 
       - label: Përmbajtja në shqip
         name: sq

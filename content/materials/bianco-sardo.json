@@ -1,0 +1,51 @@
+{
+  "active": true,
+  "order": 5,
+  "name": "Bianco Sardo",
+  "category": "granit",
+  "image": "/uploads/bianco-sardo.webp",
+  "sq": {
+    "tag": "Universal",
+    "image_alt": "Pllakë graniti Bianco Sardo me përzierje të bardhë, gri dhe të zezë",
+    "summary": "Përzierje gri, të bardhë dhe të zezë. Praktik për kuzhina, dysheme dhe fasada.",
+    "description": "Granit me strukturë të imët dhe kombinim neutral ngjyrash. Zgjedhje praktike për shumë lloje projektesh.",
+    "specs": [
+      {
+        "label": "Përdorim",
+        "value": "Universal"
+      },
+      {
+        "label": "Rezistencë",
+        "value": "E lartë"
+      },
+      {
+        "label": "Mirëmbajtje",
+        "value": "E lehtë"
+      }
+    ],
+    "seo_title": "Granit Bianco Sardo në Shqipëri | Klosuja",
+    "seo_description": "Përzierje gri, të bardhë dhe të zezë. Praktik për kuzhina, dysheme dhe fasada."
+  },
+  "en": {
+    "tag": "Universal",
+    "image_alt": "Bianco Sardo granite slab with white, grey and black grains",
+    "summary": "A grey, white and black blend. A practical material for kitchens, flooring and facades.",
+    "description": "Fine-grained granite with a neutral colour combination. A practical choice for many types of projects.",
+    "specs": [
+      {
+        "label": "Application",
+        "value": "Universal"
+      },
+      {
+        "label": "Durability",
+        "value": "High"
+      },
+      {
+        "label": "Maintenance",
+        "value": "Easy"
+      }
+    ],
+    "seo_title": "Bianco Sardo Granite in Albania | Klosuja",
+    "seo_description": "A grey, white and black blend. A practical material for kitchens, flooring and facades."
+  }
+}

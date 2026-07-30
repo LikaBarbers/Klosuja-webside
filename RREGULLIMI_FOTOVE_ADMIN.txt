@@ -1,0 +1,23 @@
+KLOSUJA – RREGULLIMI I FOTOVE NË PANELIN ADMIN
+
+Çfarë u rregullua:
+- Decap CMS u fiksua te versioni 3.8.0 për të shmangur regresionin e miniaturave të figurave.
+- U pastrua dublikati Black Galaxy.
+- U korrigjuan lidhjet e gabuara të figurave Black Galaxy dhe Bianco Sardo.
+- U hoq fotografia dublikatë 55644.webp.
+- Cache-i i /admin dhe admin/config.yml u çaktivizua.
+- Cache-i i /uploads u ul në 5 minuta.
+- U shtua kontroll në build për materiale dublikatë dhe fotografi që mungojnë.
+
+Ngarkimi në GitHub:
+1. Zëvendësoni të gjithë skedarët me përmbajtjen e këtij folderi.
+2. Sigurohuni që admin/index.html dhe admin/config.yml të zëvendësohen.
+3. Fshini content/materials/black-galaxy-1.json nëse mbetet në GitHub.
+4. Fshini uploads/55644.webp nëse mbetet në GitHub.
+5. Prisni deploy-in e Netlify derisa të jetë Published.
+6. Hape https://klosuja.com/admin/ në Incognito herën e parë.
+
+Përdorimi:
+- Emri i fotografisë të jetë i thjeshtë: bianco-sardo-2.webp
+- Mos përdorni hapësira, kllapa, ë/ç ose emra shumë të gjatë.
+- Pas Publish prisni deploy-in Published para se të rifreskoni panelin.

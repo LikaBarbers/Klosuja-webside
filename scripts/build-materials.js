@@ -35,18 +35,35 @@ function readMaterials() {
   if (!fs.existsSync(contentDir)) fail("Mungon dosja content/materials.");
   const files = fs.readdirSync(contentDir).filter(name => name.endsWith(".json")).sort();
   if (!files.length) fail("Nuk u gjet asnjë material.");
-  return files.map(filename => {
+
+  const seenNames = new Map();
+  const materials = files.map(filename => {
     const fullPath = path.join(contentDir, filename);
     let data;
     try { data = JSON.parse(fs.readFileSync(fullPath, "utf8")); }
     catch (error) { fail(`${filename} nuk është JSON i vlefshëm: ${error.message}`); }
+
     const id = path.basename(filename, ".json");
     for (const field of ["name", "category", "image", "sq", "en"]) {
       if (data[field] === undefined || data[field] === null || data[field] === "") fail(`${filename}: mungon fusha “${field}”.`);
     }
     if (!["mermer", "granit"].includes(data.category)) fail(`${filename}: kategoria duhet të jetë “mermer” ose “granit”.`);
+
+    const normalizedName = String(data.name).trim().toLocaleLowerCase("sq");
+    if (seenNames.has(normalizedName)) {
+      fail(`Materiali “${data.name}” është dy herë: ${seenNames.get(normalizedName)} dhe ${filename}.`);
+    }
+    seenNames.set(normalizedName, filename);
+
+    if (String(data.image).startsWith("/uploads/")) {
+      const imagePath = path.join(root, String(data.image).replace(/^\//, ""));
+      if (!fs.existsSync(imagePath)) fail(`${filename}: fotografia ${data.image} nuk ekziston në repository.`);
+    }
+
     return { id, ...data };
-  }).sort((a, b) => Number(a.order || 100) - Number(b.order || 100) || a.name.localeCompare(b.name));
+  });
+
+  return materials.sort((a, b) => Number(a.order || 100) - Number(b.order || 100) || a.name.localeCompare(b.name));
 }
 function localizedMaterial(item, locale) {
   const text = item[locale] || {};

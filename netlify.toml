@@ -28,10 +28,12 @@
 [[headers]]
   for = "/admin/*"
   [headers.values]
-    Cache-Control = "no-store"
+    Cache-Control = "no-store, no-cache, must-revalidate"
+    Pragma = "no-cache"
+    Expires = "0"
     X-Robots-Tag = "noindex, nofollow"
 
 [[headers]]
   for = "/uploads/*"
   [headers.values]
-    Cache-Control = "public, max-age=604800"
+    Cache-Control = "public, max-age=300, must-revalidate"
