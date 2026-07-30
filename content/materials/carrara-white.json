@@ -3,10 +3,10 @@
   "order": 1,
   "name": "Carrara White",
   "category": "mermer",
-  "image": "/uploads/55111.jpg",
+  "image": "/uploads/carrara-white.webp",
   "sq": {
     "tag": "I brendshëm",
-    "image_alt": "Ilustrim i mermerit Carrara White",
+    "image_alt": "Pllakë mermeri Carrara White me bazë të bardhë dhe damarë gri",
     "summary": "Bazë e bardhë-gri me damarë të butë. Ideal për banjo, kuzhina dhe veshje muri.",
     "description": "Mermer klasik me tonalitet të bardhë-gri dhe damarë të butë. Përshtatet mirë me interiere minimaliste dhe elegante.",
     "specs": [
@@ -22,11 +22,13 @@
         "label": "Mirëmbajtje",
         "value": "Periodike"
       }
-    ]
+    ],
+    "seo_title": "Mermer Carrara White në Shqipëri | Klosuja",
+    "seo_description": "Bazë e bardhë-gri me damarë të butë. Ideal për banjo, kuzhina dhe veshje muri."
   },
   "en": {
     "tag": "Interior",
-    "image_alt": "Carrara White marble sample",
+    "image_alt": "Carrara White marble slab with a white base and soft grey veining",
     "summary": "A white-grey base with soft veining. Ideal for bathrooms, kitchens and wall cladding.",
     "description": "Classic marble with a white-grey tone and soft veining. It works beautifully in minimalist and elegant interiors.",
     "specs": [
@@ -42,6 +44,8 @@
         "label": "Maintenance",
         "value": "Periodic"
       }
-    ]
+    ],
+    "seo_title": "Carrara White Marble in Albania | Klosuja",
+    "seo_description": "A white-grey base with soft veining. Ideal for bathrooms, kitchens and wall cladding."
   }
 }

@@ -3,10 +3,10 @@
   "order": 4,
   "name": "Black Galaxy",
   "category": "granit",
-  "image": "/uploads/55118.jpg",
+  "image": "/uploads/black-galaxy.webp",
   "sq": {
     "tag": "Rezistent",
-    "image_alt": "Ilustrim i granitit Black Galaxy",
+    "image_alt": "Pllakë graniti Black Galaxy e zezë me pika të arta",
     "summary": "Granit i errët me pika të arta. I përshtatshëm për banakë, shkallë dhe sipërfaqe me përdorim të shpeshtë.",
     "description": "Granit me bazë të errët dhe pika metalike. Rezistent dhe i përshtatshëm për sipërfaqe që përdoren shpesh.",
     "specs": [
@@ -22,11 +22,13 @@
         "label": "Mirëmbajtje",
         "value": "E lehtë"
       }
-    ]
+    ],
+    "seo_title": "Granit Black Galaxy në Shqipëri | Klosuja",
+    "seo_description": "Granit i errët me pika të arta. I përshtatshëm për banakë, shkallë dhe sipërfaqe me përdorim të shpeshtë."
   },
   "en": {
     "tag": "Durable",
-    "image_alt": "Black Galaxy granite sample",
+    "image_alt": "Black Galaxy granite slab with a black base and gold speckles",
     "summary": "Dark granite with gold speckles. Suitable for worktops, stairs and frequently used surfaces.",
     "description": "Dark granite with metallic speckles. Durable and suitable for surfaces that are used frequently.",
     "specs": [
@@ -42,6 +44,8 @@
         "label": "Maintenance",
         "value": "Easy"
       }
-    ]
+    ],
+    "seo_title": "Black Galaxy Granite in Albania | Klosuja",
+    "seo_description": "Dark granite with gold speckles. Suitable for worktops, stairs and frequently used surfaces."
   }
 }
